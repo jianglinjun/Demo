@@ -19,6 +19,9 @@ public class Utils {
     public static long getCurrentMill(){
         return System.currentTimeMillis();
     }
+	public static String getPkg(){
+        return "";
+    }
     public static String getUnique(){
         return Build.SERIAL;
     }
