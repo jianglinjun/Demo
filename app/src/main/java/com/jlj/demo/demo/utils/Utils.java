@@ -1,6 +1,7 @@
 package com.jlj.demo.demo.utils;
 
 import android.os.Build;
+import android.os.SystemClock;
 
 import java.util.UUID;
 
@@ -15,7 +16,9 @@ public class Utils {
     public static String getUUID(){
         return UUID.randomUUID().toString();
     }
-
+    public static long getCurrentMill(){
+        return System.currentTimeMillis();
+    }
     public static String getUnique(){
         return Build.SERIAL;
     }
