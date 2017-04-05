@@ -15,7 +15,9 @@ public class Utils {
     public static String getUUID(){
         return UUID.randomUUID().toString();
     }
-
+    public static String getPkg(){
+        return "";
+    }
     public static String getUnique(){
         return Build.SERIAL;
     }
