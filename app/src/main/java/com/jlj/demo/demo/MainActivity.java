@@ -22,5 +22,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onPostResume() {
         super.onPostResume();
+        System.out.println("111111");
     }
 }
