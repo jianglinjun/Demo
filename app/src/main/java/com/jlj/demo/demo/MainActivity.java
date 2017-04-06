@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        System.out.println("000=========000");
+        System.out.println("22222222");
     }
 
     @Override
