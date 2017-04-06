@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
     }
+
+    @Override
+    protected void onPostResume() {
+        super.onPostResume();
+    }
 }
